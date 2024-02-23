@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #d0f050;
+}
+header, footer{
+text-align:center;
+width:100%;
+font-size: 8rem;
+font-weight: bold;
+}
+
+.leftTop{
+position:absolute;
+top:0px;
+left:0px;
+width:10rem;
+}
+.rightTop{
+position:absolute;
+top:0px;
+right:0px;
+width:10rem;
+}
+.leftBottom{
+position:absolute;
+bottom:0px;
+left:0px;
+width:10rem;
+}
+.rightBottom{
+position:absolute;
+bottom:0px;
+right:0px;
+width:10rem;
+}
+#container{
+position:relative;
+height:50vh;
+width:100%;
+}
+img{
+width:100%;
+height: auto;
+}
+
+/*bottom sticky Ads */
+.Arpian-ads {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	min-height: 70px;
+	max-height: 90px; /* modify as per your website design*/
+	padding: 5px 0;
+	box-shadow: 0 -6px 18px 0 rgba(9,32,76,.1);
+	-webkit-transition: all .1s ease-in;
+	transition: all .1s ease-in;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fefefe;
+	z-index: 20;
+}
+
+.Arpian-ads-close {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px 0 0;
+	position: absolute;
+	right: 0;
+	top: -30px;
+	background-color: #fefefe;
+	box-shadow: 0 -6px 18px 0 rgba(9,32,76,.08);
+}
+
+.Arpian-ads .Arpian-ads-close svg {
+	width: 22px;
+	height: 22px;
+	fill: #000;
+}
+
+.Arpian-ads .Arpian-ads-content {
+	overflow: hidden;
+	display: block;
+	position: relative;
+	text-align:center;
+	height: 70px;
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 10px;
+    font-size: 3rem;
+}
